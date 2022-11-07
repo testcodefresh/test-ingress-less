@@ -1,0 +1,16 @@
+{
+  "appName": "events",
+  "userGivenName": "events",
+  "destNamespace": "cf-ingress-less",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/events/overlays/cf-ingress-less",
+  "srcRepoURL": "https://github.com/testcodefresh/test-ingress-less.git",
+  "srcTargetRevision": "",
+  "labels": {
+    "codefresh_io_entity": "component",
+    "codefresh_io_internal": "true"
+  },
+  "annotations": {
+    "argocd_argoproj_io_sync-wave": "0"
+  }
+}
